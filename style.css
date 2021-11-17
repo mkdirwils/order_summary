@@ -5,9 +5,18 @@
 }
 
 body {
- font-size: 16px;
  background-color: hsl(225, 100%, 94%);
  line-height: 1.4;
+ font-family: 'Red Hat Display', sans-serif;;
+ color:hsl(224, 23%, 55%)
+}
+
+body h2, body h4 {
+ color: hsl(223, 47%, 23%);
+}
+
+body p {
+ font-size: 16px;
 }
 
 main {
@@ -46,7 +55,7 @@ main {
  display: flex;
  justify-content: space-between;
  background-color: hsl(225, 100%, 98%);
- width: 80%;
+ width: 85%;
  line-height: 1.5;
  padding: 20px;
  margin: -20px auto;
@@ -54,11 +63,24 @@ main {
 }
 
 .payment-plan .plan-offer {
- margin-left: 15px;
+ margin-left: 10px;
+}
+
+.plan h4 {
+ font-weight: 700;
 }
 
 .payment-plan .balance {
  margin-left: 60px;
+}
+
+.balance a {
+ text-decoration: none;
+ color: hsl(245, 75%, 52%)
+}
+
+.balance a:hover{
+ color:   hsla(245, 75%, 52%, 0.8);
 }
 
 .payment-button {
@@ -78,10 +100,27 @@ main {
  color: white; 
 }
 
+.payment-button:hover {
+ background-color: hsla(245, 75%, 52%, 0.8);
+ border: 1px solid  hsla(245, 75%, 52%, 0.8);
+ cursor: pointer;
+}
+
 .cancel-order {
  text-align: center;
  margin-bottom: 40px;
 }
+
+.cancel-order a {
+ text-decoration: none;
+ color: hsl(224, 23%, 55%)
+}
+
+.cancel-order a:hover {
+ color: hsl(223, 47%, 23%);
+}
+
+
 
 /* Feel free to remove these styles or customise in your own stylesheet 👍  */
 
@@ -92,4 +131,5 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%); 
+
  }
