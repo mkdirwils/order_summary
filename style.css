@@ -4,7 +4,11 @@
  box-sizing: border-box;
 }
 
-
+body {
+ font-size: 16px;
+ background-color: hsl(225, 100%, 94%);
+ line-height: 1.4;
+}
 
 main {
   display: flex;
@@ -13,14 +17,13 @@ main {
 }
 
 .payment-summary {
- margin: 120px 0;
+ margin: 140px 0;
  border: 1px solid  hsl(225, 100%, 94%);
  border-radius: 15px;
  box-shadow: 5px 5px 5px hsl(225, 100%, 94%);
  display: flex;
  flex-direction: column;
  width: 375px;
- height: 500px;
  background-color: white;
 }
 
@@ -29,10 +32,61 @@ main {
  border-top-right-radius: 15px;
 }
 
+.payment-header {
+ text-align: center;
+ padding: 40px;
+}
+
+.payment-header p {
+ margin-top: 15px;
+}
+
+
+.payment-plan {
+ display: flex;
+ justify-content: space-between;
+ background-color: hsl(225, 100%, 98%);
+ width: 80%;
+ line-height: 1.5;
+ padding: 20px;
+ margin: -20px auto;
+ border-radius: 10px;
+}
+
+.payment-plan .plan-offer {
+ margin-left: 15px;
+}
+
+.payment-plan .balance {
+ margin-left: 60px;
+}
+
+.payment-button {
+ width: 80%;
+ margin: 50px auto;
+ margin-bottom: 20px;
+ border: 1px solid  hsl(245, 75%, 52%);
+ text-align: center;
+ padding: 8px;
+ border-radius: 7px;
+ box-shadow: 5px 5px 20px  hsla(245, 75%, 52%, 0.4);
+ background-color: hsl(245, 75%, 52%);
+}
+
+.payment-button a {
+ text-decoration: none;
+ color: white; 
+}
+
+.cancel-order {
+ text-align: center;
+ margin-bottom: 40px;
+}
 
 /* Feel free to remove these styles or customise in your own stylesheet 👍  */
 
 .attribution { 
+ margin-bottom: 100px;
  font-size: 11px; 
  text-align: center; 
 }
