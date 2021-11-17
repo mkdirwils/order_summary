@@ -1,0 +1,41 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+
+main {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.payment-summary {
+ margin: 120px 0;
+ border: 1px solid  hsl(225, 100%, 94%);
+ border-radius: 15px;
+ box-shadow: 5px 5px 5px hsl(225, 100%, 94%);
+ display: flex;
+ flex-direction: column;
+ width: 375px;
+ height: 500px;
+ background-color: white;
+}
+
+.hero-image {
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍  */
+
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+ }
