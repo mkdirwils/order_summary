@@ -85,6 +85,7 @@ main {
 
 .payment-button, .payment-button:active, .payment-button:visited, .payment-button:visited:active{
  color: white;
+ font-size: 18px;
  width: 80%;
  margin: 50px auto;
  margin-bottom: 22px;
